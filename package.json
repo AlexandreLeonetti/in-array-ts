@@ -1,0 +1,28 @@
+{
+  "name": "@leonetti/in-array-ts",
+  "version": "0.0.1",
+  "description": "Returns true if elt is in array",
+  "repository": "alexandreleonetti/in-array-ts",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "type",
+    "types"
+  ],
+  "author": {
+    "name": "Alex Leonetti",
+    "url": "https://github.com/AlexandreLeonetti"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/is-number": "^7.0.5",
+    "is-number": "^7.0.0"
+  }
+}
